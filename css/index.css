@@ -41,7 +41,6 @@ body {
     gap: 20px;
 }
 
-/* fixed: was .company-name, HTML actually has .comapny-name (typo) */
 .comapny-name {
     padding: 5px;
 }
