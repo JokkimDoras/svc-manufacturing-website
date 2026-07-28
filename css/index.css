@@ -1,0 +1,52 @@
+body {
+    font-family: var(--font-family-base);
+    color: var(--color-text-primary);
+    background: var(--color-bg);
+    line-height: var(--line-height-normal);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 var(--spacing-container-x);
+
+}
+
+.header {
+    background: var(--color-bg-dark);
+    padding: var(--space-2) 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-text-on-dark);
+}
+
+.logo {
+    color: var(--color-text-on-dark);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-wide);
+    font-size: var(--font-size-sm);
+}
+
+.nav {
+    display: flex;
+    gap: var(--space-5);
+}
+
+.logo-name-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* fixed: was .company-name, HTML actually has .comapny-name (typo) */
+.comapny-name {
+    padding: 5px;
+}
+
+.name {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-regular);
+}
