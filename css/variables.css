@@ -100,7 +100,7 @@
   
     /* Semantic spacing aliases */
     --spacing-section-y: var(--space-11);   /* Vertical padding for full-width sections */
-    --spacing-container-x: var(--space-6);  /* Horizontal padding inside container */
+    --spacing-container-x: var(--space-8);  /* Horizontal padding inside container */
     --spacing-card-padding: var(--space-5); /* Internal card padding */
     --spacing-grid-gap: var(--space-6);     /* Gap between grid/card items */
   
