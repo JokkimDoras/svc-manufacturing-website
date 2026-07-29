@@ -11,45 +11,52 @@
 </head>
 
 <body>
-   
+
 
     <!-- HEADER (dark section) -->
-<header class="header">
-    <div class="container header__inner">
-        <a href="#" class="logo-company-name">
-            <img src="assets/images/logo.png" alt="Sri Venkateswara Company Logo" class="logo__img" />
-            <span class="logo__text">Sri Venkateswara Company</span>
-        </a>
-        <nav class="nav">
-            <a href="#">Products</a>
-            <a href="#">Services</a>
-            <a href="#">Investor</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact Us</a>
-        </nav>
-    </div>
-</header>
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo-name-header">
+                <div>
+                    <img src="assets/images/logo.png" class="logo-img" alt="logo" />
+                </div>
+                <div class="company-name">
+                    <span class="name">Sri Venkateswara</span>
+                    <br />
+                    <span class="name-sub">Company</span>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Investor</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- HERO (dark section) -->
-    <section class="hero">
-        <div class="container">
-            <h1 class="hero__title">
-                COMMITTED TO<br>
-                BUILDING A BETTER<br>
-                WORLD
-            </h1>
-    
-            <p class="hero__subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed diam nonummy eirmod tempor invidunt ut labore et dolore.
-            </p>
-    
-            <button class="btn btn--primary">
-                Get started &rarr;
-            </button>
+    <section class="hero hero--test">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+            <h1 class="hero__title">COMMITTED TO<br>BUILDING A BETTER<br>WORLD</h1>
+            <p class="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy eirmod
+                tempor invidunt ut labore et dolore.</p>
+            <button class="btn btn--primary">Get started &rarr;</button>
+        </div>
+
+        <div class="hero__arrows">
+            <button class="hero__arrow" aria-label="Previous slide">&#8592;</button>
+            <button class="hero__arrow" aria-label="Next slide">&#8594;</button>
+        </div>
+
+        <div class="hero__dots">
+            <span class="dot dot--active"></span>
+            <span class="dot"></span>
         </div>
     </section>
-
     <!-- LIGHT SECTION -->
     <section class="section">
         <div class="container">
