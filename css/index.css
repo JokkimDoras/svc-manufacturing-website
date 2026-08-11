@@ -311,7 +311,10 @@ body {
 .section--alt {
   background: var(--color-bg-alt);
 }
-
+.container-certificate{
+  display: flex;
+  justify-content: space-between;
+}
 .eyebrow {
   display: inline-block;
   font-size: var(--font-size-xs);
@@ -340,7 +343,7 @@ body {
 /* ---------- Stats ---------- */
 .stat-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--spacing-grid-gap);
   margin-top: var(--space-8);
 }
@@ -380,12 +383,13 @@ body {
 }
 
 .card__image {
-  height: 160px;
+  height: 210px;
   background: linear-gradient(135deg, var(--color-bg-alt), var(--color-border));
 }
 
 .card__body {
   padding: var(--spacing-card-padding);
+  
 }
 
 .card__date {
